@@ -1,0 +1,30 @@
+npm init
+npm i typescript --save-dev
+npm install nodemon rimraf ts-node @types/node --save-dev
+npm i --save venom-bot
+npm i dotenv express --save
+npm i @types/dotenv @types/express --save-dev
+npm i libphonenumber-js --save
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================
+Comandos e codigo de teste
+
+npm run dev
+
+this.sendText("5531989313830@c.us", "Olá tudo bem? Este é um teste")
+
+
+
+const { number, message } = req.body
