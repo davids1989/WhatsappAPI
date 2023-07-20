@@ -9,6 +9,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
 
 app.get('/status', (req: Request, res: Response) => {
+    return res.send({
+        qr_code: sender.qrCode,
+        connected: sender.isConnected
+    })
 
 })
 
