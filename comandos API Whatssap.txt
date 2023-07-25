@@ -23,6 +23,9 @@ Comandos e codigo de teste
 
 npm run dev
 
+Para erros: npm install npm-check-updates
+
+
 this.sendText("5531989313830@c.us", "Olá tudo bem? Este é um teste")
 
 

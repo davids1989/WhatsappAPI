@@ -1,6 +1,8 @@
 import parsePhoneNumber, { isValidPhoneNumber } from "libphonenumber-js";
 import { create, Whatsapp, Message, SocketState, CatchQR } from "venom-bot";
 
+const puppeteer = require('puppeteer');
+
 export type QRCode = {
     base64Qr: string
     asciiQR: string
@@ -58,9 +60,21 @@ class Sender {
                 )
         }
 
-        const start = (client: Whatsapp) => {
+        const start =  async (client: Whatsapp) => {
             this.client = client
+            
+            const launchOptions = {
+                args: ['--no-sandbox', '--disable-setuid-sandbox'],
+            };
 
+            try {
+                // Lança o Chrome com as opções configuradas
+                const browser = await puppeteer.launch(launchOptions);
+
+            } catch (error) {
+                console.error(error);
+            }
+        
 
         }
 
