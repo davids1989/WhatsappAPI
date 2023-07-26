@@ -8,6 +8,18 @@ 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
 
 cd WhatsappAPI
 npm init
+npm i typescript
+npm install nodemon rimraf ts-node @types/node
+npm i venom-bot
+npm i dotenv express
+npm i @types/dotenv @types/express
+npm i libphonenumber-js
+npm install puppeteer-core
+npm install npm-check-updates
+
+
+
+npm init
 npm i typescript --save-dev
 npm install nodemon rimraf ts-node @types/node --save-dev
 npm i venom-bot / npm i --save venom-bot 
@@ -40,3 +52,12 @@ this.sendText("5531989313830@c.us", "Olá tudo bem? Este é um teste")
 
 
 const { number, message } = req.body
+
+
+OUTROS Comandos
+
+Descobrir quem esta usando determinada porta: 
+sudo fuser -n tcp 5002
+
+Para excluir o serviço que esta usando determminada porta:
+kill PID_do_processo
