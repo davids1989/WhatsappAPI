@@ -1,10 +1,10 @@
-2023/07/24-22:04:07.049 2954 Creating DB C:\Users\David\Desktop\Git\WhatsappAPI-1\tokens\ws-enviar\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
-2023/07/24-22:04:07.059 2954 Reusing MANIFEST C:\Users\David\Desktop\Git\WhatsappAPI-1\tokens\ws-enviar\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/24-22:04:07.157 2954 Level-0 table #5: started
-2023/07/24-22:04:07.162 2954 Level-0 table #5: 7439 bytes OK
-2023/07/24-22:04:07.164 2954 Delete type=0 #3
-2023/07/24-22:04:07.165 2954 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/07/24-22:04:09.093 2ddc Level-0 table #7: started
-2023/07/24-22:04:09.099 2ddc Level-0 table #7: 20810 bytes OK
-2023/07/24-22:04:09.103 2ddc Delete type=0 #4
-2023/07/24-22:04:09.103 2954 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/25-13:38:47.400 234c Creating DB E:\Desktop\github\WhatsappAPI-1\tokens\ws-enviar\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/07/25-13:38:47.570 234c Reusing MANIFEST E:\Desktop\github\WhatsappAPI-1\tokens\ws-enviar\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/25-13:38:47.986 a90 Level-0 table #5: started
+2023/07/25-13:38:48.045 a90 Level-0 table #5: 12829 bytes OK
+2023/07/25-13:38:48.084 a90 Delete type=0 #3
+2023/07/25-13:38:48.084 a90 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/07/25-13:38:49.466 1c78 Level-0 table #7: started
+2023/07/25-13:38:49.505 1c78 Level-0 table #7: 19203 bytes OK
+2023/07/25-13:38:49.587 1c78 Delete type=0 #4
+2023/07/25-13:38:49.587 12b4 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
